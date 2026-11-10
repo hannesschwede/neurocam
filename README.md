@@ -4,6 +4,8 @@
 
 Ein eigenständiges, browserbasiertes **3-Achs-CAM-Labor**: STL analysieren, Schnittdaten nachrechnen und rechteckige Planfräsbahnen als NC erzeugen und betrachten. Entwickelt als technisches Portfolio-Projekt von Hannes Schwede, mit KI-Unterstützung.
 
+**Live-Demo:** [neurocam-zeta.vercel.app](https://neurocam-zeta.vercel.app)
+
 **React · TypeScript · Three.js / React Three Fiber · Vite · Vitest · Playwright**
 
 > **Keine Maschinenfreigabe.** Der generierte NC-Code ist ein Lern-/Entwicklungsergebnis. Vor realem Einsatz sind eine unabhängige Simulation, Kontrolle von Nullpunkten, Werkzeuglängen, Aufspannung und Steuerungsdialekt sowie Dry Run und fachliche Freigabe erforderlich. Es gibt **keine Kollisions- oder Abtragssimulation**.
