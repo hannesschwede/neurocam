@@ -1,0 +1,24 @@
+{
+  "sameCodeForDifferentGeometry": true,
+  "depths": [
+    {
+      "requestedStepDown": 2,
+      "zCutLines": ["G01 Z-2.000 F400"]
+    },
+    {
+      "requestedStepDown": 3,
+      "zCutLines": []
+    },
+    {
+      "requestedStepDown": 0.7,
+      "zCutLines": ["G01 Z-0.700 F400", "G01 Z-1.400 F400"]
+    }
+  ],
+  "validationExample": {
+    "isValid": true,
+    "errors": [],
+    "warnings": [],
+    "score": 100
+  },
+  "score": 100
+}
