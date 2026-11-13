@@ -1256,6 +1256,19 @@ footer .muted {
   margin-left: 8px;
   font-size: 9px;
 }
+footer .footer-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+footer .footer-links a {
+  color: #829d99;
+  text-decoration: none;
+}
+footer .footer-links a:hover {
+  color: #e4f0ee;
+  text-decoration: underline;
+}
 footer > span:last-child {
   color: #526b78;
   display: flex;

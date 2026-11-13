@@ -585,6 +585,22 @@ export default function App() {
               / Engineering Portfolio · Hannes Schwede
             </span>
           </span>
+          <nav className="footer-links" aria-label="Rechtliches">
+            <a
+              href="https://www.hannesschwede.com/impressum"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Impressum
+            </a>
+            <a
+              href="https://www.hannesschwede.com/datenschutz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Datenschutz
+            </a>
+          </nav>
           <span>
             TypeScript · React · Three.js <span className="footer-square" />
           </span>
@@ -637,6 +653,22 @@ export default function App() {
               <br />
               <a href={MATERIAL_SOURCE} target="_blank" rel="noreferrer">
                 Materialgruppen: Harvey Tool ↗
+              </a>
+              <br />
+              <a
+                href="https://www.hannesschwede.com/impressum"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Impressum ↗
+              </a>
+              {" · "}
+              <a
+                href="https://www.hannesschwede.com/datenschutz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Datenschutz ↗
               </a>
             </p>
             <button
